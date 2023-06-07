@@ -6,6 +6,7 @@ from selene import be, have
 def browser_size():
     browser.config.window_width = 1366
     browser.config.window_height = 768
+
 @pytest.fixture
 def open_browser():
     browser.open('https://google.com')
